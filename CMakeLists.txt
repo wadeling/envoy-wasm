@@ -122,7 +122,7 @@ add_executable(envoy
     api/xds_protocol.rst
     api/wasm/cpp/proxy_wasm_intrinsics.h
     api/wasm/cpp/proxy_wasm_intrinsics.cc
-    api/wasm/cpp/Makefile.base_lite
+    api/wasm/cpp/
     examples/wasm/
 
     include/envoy/access_log/access_log.h
