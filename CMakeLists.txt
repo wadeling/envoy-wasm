@@ -229,7 +229,6 @@ add_executable(envoy
     include/envoy/stats/histogram.h
     include/envoy/stats/scope.h
     include/envoy/stats/sink.h
-    include/envoy/stats/stat_data_allocator.h
     include/envoy/stats/stats.h
     include/envoy/stats/stats_macros.h
     include/envoy/stats/stats_matcher.h
@@ -573,8 +572,6 @@ add_executable(envoy
     source/common/ssl/tls_certificate_config_impl.cc
     source/common/ssl/tls_certificate_config_impl.h
     source/common/stats/fake_symbol_table_impl.h
-    source/common/stats/heap_stat_data.cc
-    source/common/stats/heap_stat_data.h
     source/common/stats/histogram_impl.cc
     source/common/stats/histogram_impl.h
     source/common/stats/isolated_store_impl.cc
